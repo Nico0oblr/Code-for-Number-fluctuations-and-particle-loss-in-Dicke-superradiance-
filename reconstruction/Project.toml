@@ -1,0 +1,14 @@
+[deps]
+Clarabel = "61c947e1-3e6d-4ee4-985a-eec8c727bd6e"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
+JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
+OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
+
+[compat]
+Distributions = "0.25"
+JLD2 = "0.6"
+OrdinaryDiffEq = "7"
+julia = "1.10"
