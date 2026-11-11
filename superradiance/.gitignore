@@ -1,0 +1,6 @@
+/.venv/
+/fig4/output/
+/fig7/output/
+__pycache__/
+*.py[cod]
+/data/Rho-*.npy

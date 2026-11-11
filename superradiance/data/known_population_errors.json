@@ -1,0 +1,353 @@
+{
+  "error_label": "missing_m0_ground_loss",
+  "scope": "Historical inputs and archived summaries only. The regenerated published Fig. 7(b) inputs are not affected.",
+  "identification": "Match both file name and SHA-256; regenerated files can have the same names.",
+  "population_files": [
+    {
+      "file": "Rho-Gs-1-Gg-1-Ge-1-tnum-1000-n-100-Tmax-0.13815510557964275Rho.npy",
+      "sha256": "622dc8b9b8ed2d2bbc4c8d3d4ad1574954684ad4cb2e8f3728c265ac45911822",
+      "data_error": "missing_m0_ground_loss",
+      "N0": 100,
+      "ground_loss_rate": 1.0,
+      "shape": [
+        1001,
+        5151
+      ],
+      "status": "legacy_cache",
+      "checked_on": "2026-11-11",
+      "affected_quantities": [
+        "p_m0_by_N",
+        "total_probability",
+        "N_mean"
+      ],
+      "unaffected_quantities": [
+        "I",
+        "m_mean",
+        "intensity_peak_index"
+      ],
+      "details": "Historical population cache omits ground-loss gain terms within the m=0 sector. The m=0 probabilities, normalization, and mean total emitter number are unreliable. For this omission, intensity and mean excited population are unaffected. Do not renormalize the arrays.",
+      "normalization_check": {
+        "max_absolute_error": 0.8158117868952716,
+        "final_probability_sum": 0.18418821310472847,
+        "integrated_m0_ground_loss_flux": 0.8158111764441146
+      }
+    },
+    {
+      "file": "Rho-Gs-1-Gg-1-Ge-1-tnum-1000-n-5-Tmax-0.9656627474604601Rho.npy",
+      "sha256": "1cbd351dfc1e7265477fbbc19e6e4f1d3326e7861829aa62f4aa837b250b3341",
+      "data_error": "missing_m0_ground_loss",
+      "N0": 5,
+      "ground_loss_rate": 1.0,
+      "shape": [
+        1001,
+        21
+      ],
+      "status": "legacy_cache",
+      "checked_on": "2026-11-11",
+      "affected_quantities": [
+        "p_m0_by_N",
+        "total_probability",
+        "N_mean"
+      ],
+      "unaffected_quantities": [
+        "I",
+        "m_mean",
+        "intensity_peak_index"
+      ],
+      "details": "Historical population cache omits ground-loss gain terms within the m=0 sector. The m=0 probabilities, normalization, and mean total emitter number are unreliable. For this omission, intensity and mean excited population are unaffected. Do not renormalize the arrays.",
+      "normalization_check": {
+        "max_absolute_error": 0.42282538965791094,
+        "final_probability_sum": 0.5771746103420891,
+        "integrated_m0_ground_loss_flux": 0.4228253407987249
+      }
+    },
+    {
+      "file": "Rho-Gs-1-Gg-5-Ge-5-tnum-1000-n-100-Tmax-0.13815510557964275Rho.npy",
+      "sha256": "6284d2f35145e57704d07cb3ca1f4afd68420da69c886b24e18f013e3f3ee8c3",
+      "data_error": "missing_m0_ground_loss",
+      "N0": 100,
+      "ground_loss_rate": 5.0,
+      "shape": [
+        1001,
+        5151
+      ],
+      "status": "legacy_cache",
+      "checked_on": "2026-11-11",
+      "affected_quantities": [
+        "p_m0_by_N",
+        "total_probability",
+        "N_mean"
+      ],
+      "unaffected_quantities": [
+        "I",
+        "m_mean",
+        "intensity_peak_index"
+      ],
+      "details": "Historical population cache omits ground-loss gain terms within the m=0 sector. The m=0 probabilities, normalization, and mean total emitter number are unreliable. For this omission, intensity and mean excited population are unaffected. Do not renormalize the arrays.",
+      "normalization_check": {
+        "max_absolute_error": 0.6006844384687189,
+        "final_probability_sum": 0.39931556153128117,
+        "integrated_m0_ground_loss_flux": 0.6006840982130757
+      }
+    },
+    {
+      "file": "Rho-Gs-1-Gg-5-Ge-5-tnum-1000-n-1000-Tmax-0.02072326583694641Rho.npy",
+      "sha256": "0ca5f55c67377ab5c3648d73a9d90b198edd528ba90f6de8b80b076dbdcf7374",
+      "data_error": "missing_m0_ground_loss",
+      "N0": 1000,
+      "ground_loss_rate": 5.0,
+      "shape": [
+        1001,
+        501501
+      ],
+      "status": "legacy_cache",
+      "checked_on": "2026-11-11",
+      "affected_quantities": [
+        "p_m0_by_N",
+        "total_probability",
+        "N_mean"
+      ],
+      "unaffected_quantities": [
+        "I",
+        "m_mean",
+        "intensity_peak_index"
+      ],
+      "details": "Historical population cache omits ground-loss gain terms within the m=0 sector. The m=0 probabilities, normalization, and mean total emitter number are unreliable. For this omission, intensity and mean excited population are unaffected. Do not renormalize the arrays.",
+      "normalization_check": {
+        "max_absolute_error": 0.9823196685522657,
+        "final_probability_sum": 0.017680331447734288,
+        "integrated_m0_ground_loss_flux": 0.9823193307985989
+      }
+    },
+    {
+      "file": "Rho-Gs-1-Gg-5-Ge-5-tnum-1000-n-500-Tmax-0.03728764859053315Rho.npy",
+      "sha256": "9126dcbf77fe7b2b19170942c4b70e8ec3d172562ccac7cc4014777b7074d3e1",
+      "data_error": "missing_m0_ground_loss",
+      "N0": 500,
+      "ground_loss_rate": 5.0,
+      "shape": [
+        1001,
+        125751
+      ],
+      "status": "legacy_cache",
+      "checked_on": "2026-11-11",
+      "affected_quantities": [
+        "p_m0_by_N",
+        "total_probability",
+        "N_mean"
+      ],
+      "unaffected_quantities": [
+        "I",
+        "m_mean",
+        "intensity_peak_index"
+      ],
+      "details": "Historical population cache omits ground-loss gain terms within the m=0 sector. The m=0 probabilities, normalization, and mean total emitter number are unreliable. For this omission, intensity and mean excited population are unaffected. Do not renormalize the arrays.",
+      "normalization_check": {
+        "max_absolute_error": 0.9535812515393862,
+        "final_probability_sum": 0.046418748460613724,
+        "integrated_m0_ground_loss_flux": 0.9535807140668746
+      }
+    },
+    {
+      "file": "Rho-Gs-1-Gg-50-Ge-50-tnum-1000-n-500-Tmax-0.03728764859053315Rho.npy",
+      "sha256": "47b01d28af57f0489bf85f150e917468359037ce8401f78ae3938abfb563babf",
+      "data_error": "missing_m0_ground_loss",
+      "N0": 500,
+      "ground_loss_rate": 50.0,
+      "shape": [
+        1001,
+        125751
+      ],
+      "status": "legacy_cache",
+      "checked_on": "2026-11-11",
+      "affected_quantities": [
+        "p_m0_by_N",
+        "total_probability",
+        "N_mean"
+      ],
+      "unaffected_quantities": [
+        "I",
+        "m_mean",
+        "intensity_peak_index"
+      ],
+      "details": "Historical population cache omits ground-loss gain terms within the m=0 sector. The m=0 probabilities, normalization, and mean total emitter number are unreliable. For this omission, intensity and mean excited population are unaffected. Do not renormalize the arrays.",
+      "normalization_check": {
+        "max_absolute_error": 0.01862448444965803,
+        "final_probability_sum": 0.981375515550342,
+        "integrated_m0_ground_loss_flux": 0.018624601801823727
+      }
+    },
+    {
+      "file": "Rho-Gs-1-Gg-80-Ge-80-tnum-1000-n-500-Tmax-0.03728764859053315Rho.npy",
+      "sha256": "5fea576c24ed63bbef80ac134a0167afcffc281b38d11091a5c64ca4cf69f314",
+      "data_error": "missing_m0_ground_loss",
+      "N0": 500,
+      "ground_loss_rate": 80.0,
+      "shape": [
+        1001,
+        125751
+      ],
+      "status": "legacy_cache",
+      "checked_on": "2026-11-11",
+      "affected_quantities": [
+        "p_m0_by_N",
+        "total_probability",
+        "N_mean"
+      ],
+      "unaffected_quantities": [
+        "I",
+        "m_mean",
+        "intensity_peak_index"
+      ],
+      "details": "Historical population cache omits ground-loss gain terms within the m=0 sector. The m=0 probabilities, normalization, and mean total emitter number are unreliable. For this omission, intensity and mean excited population are unaffected. Do not renormalize the arrays.",
+      "normalization_check": {
+        "max_absolute_error": 0.0004971499999562035,
+        "final_probability_sum": 0.9995028500000438,
+        "integrated_m0_ground_loss_flux": 0.000497159812621272
+      }
+    },
+    {
+      "file": "Rho-Gs-1-Gg-16.091119249400247-Ge-16.091119249400247-tnum-1000-n-500-Tmax-0.03728764859053315Rho.npy",
+      "sha256": "e68a3d47279c37e5555053a1260a2a42b1450d27cc592f3287df2c815f74e6b0",
+      "data_error": "missing_m0_ground_loss",
+      "N0": 500,
+      "ground_loss_rate": 16.091119249400247,
+      "shape": [
+        1001,
+        125751
+      ],
+      "status": "superseded_panel_b_archive",
+      "checked_on": "2026-11-11",
+      "affected_quantities": [
+        "p_m0_by_N",
+        "total_probability",
+        "N_mean"
+      ],
+      "unaffected_quantities": [
+        "I",
+        "m_mean",
+        "intensity_peak_index"
+      ],
+      "details": "Historical population cache omits ground-loss gain terms within the m=0 sector. The m=0 probabilities, normalization, and mean total emitter number are unreliable. For this omission, intensity and mean excited population are unaffected. Do not renormalize the arrays.",
+      "normalization_check": {
+        "max_absolute_error": 0.7459816264192742,
+        "final_probability_sum": 0.2540183735807258,
+        "integrated_m0_ground_loss_flux": 0.7459808678100058
+      }
+    },
+    {
+      "file": "Rho-Gs-1-Gg-241.36678874100375-Ge-241.36678874100375-tnum-1000-n-500-Tmax-0.03728764859053315Rho.npy",
+      "sha256": "c67a70900013c9f859e5603a6a5807b3c9d219cabfa08b24f250ab615ff504d6",
+      "data_error": "missing_m0_ground_loss",
+      "N0": 500,
+      "ground_loss_rate": 241.36678874100375,
+      "shape": [
+        1001,
+        125751
+      ],
+      "status": "superseded_panel_b_archive",
+      "checked_on": "2026-11-11",
+      "affected_quantities": [
+        "p_m0_by_N",
+        "total_probability",
+        "N_mean"
+      ],
+      "unaffected_quantities": [
+        "I",
+        "m_mean",
+        "intensity_peak_index"
+      ],
+      "details": "Historical population cache omits ground-loss gain terms within the m=0 sector. The m=0 probabilities, normalization, and mean total emitter number are unreliable. For this omission, intensity and mean excited population are unaffected. Do not renormalize the arrays.",
+      "normalization_check": {
+        "max_absolute_error": 0.03910571472444624,
+        "final_probability_sum": 0.9608942852755538,
+        "integrated_m0_ground_loss_flux": 0.03910569833232476
+      }
+    },
+    {
+      "file": "Rho-Gs-1-Gg-80.45559624700124-Ge-80.45559624700124-tnum-1000-n-500-Tmax-0.03728764859053315Rho.npy",
+      "sha256": "5452ebd2e3972b739f98ae16279607dd974e9fc446192f2fecc440f5835446ef",
+      "data_error": "missing_m0_ground_loss",
+      "N0": 500,
+      "ground_loss_rate": 80.45559624700124,
+      "shape": [
+        1001,
+        125751
+      ],
+      "status": "superseded_panel_b_archive",
+      "checked_on": "2026-11-11",
+      "affected_quantities": [
+        "p_m0_by_N",
+        "total_probability",
+        "N_mean"
+      ],
+      "unaffected_quantities": [
+        "I",
+        "m_mean",
+        "intensity_peak_index"
+      ],
+      "details": "Historical population cache omits ground-loss gain terms within the m=0 sector. The m=0 probabilities, normalization, and mean total emitter number are unreliable. For this omission, intensity and mean excited population are unaffected. Do not renormalize the arrays.",
+      "normalization_check": {
+        "max_absolute_error": 0.00048392869839719577,
+        "final_probability_sum": 0.9995160713016028,
+        "integrated_m0_ground_loss_flux": 0.00048393836493704114
+      }
+    }
+  ],
+  "summary_files": [
+    {
+      "file": "fig7b-N-500-gr-0.2.npz",
+      "sha256": "b032abf83afcb33db34ff261fe7a97f2bbf0dc473cf72c961cc049c909069987",
+      "data_error": "missing_m0_ground_loss",
+      "status": "superseded_panel_b_summary",
+      "checked_on": "2026-11-11",
+      "source_file": "Rho-Gs-1-Gg-16.091119249400247-Ge-16.091119249400247-tnum-1000-n-500-Tmax-0.03728764859053315Rho.npy",
+      "source_sha256": "e68a3d47279c37e5555053a1260a2a42b1450d27cc592f3287df2c815f74e6b0",
+      "affected_quantities": [
+        "N_mean"
+      ],
+      "unaffected_quantities": [
+        "I",
+        "m_mean",
+        "intensity_peak_index"
+      ],
+      "details": "Archived summary reduced from an incomplete historical m=0 population sector; superseded by the regenerated published summary."
+    },
+    {
+      "file": "fig7b-N-500-gr-1.npz",
+      "sha256": "657fbe2de5b2b70fbff5713203ef751e1a5929ae4ceb95022eba038aa56b251f",
+      "data_error": "missing_m0_ground_loss",
+      "status": "superseded_panel_b_summary",
+      "checked_on": "2026-11-11",
+      "source_file": "Rho-Gs-1-Gg-80.45559624700124-Ge-80.45559624700124-tnum-1000-n-500-Tmax-0.03728764859053315Rho.npy",
+      "source_sha256": "5452ebd2e3972b739f98ae16279607dd974e9fc446192f2fecc440f5835446ef",
+      "affected_quantities": [
+        "N_mean"
+      ],
+      "unaffected_quantities": [
+        "I",
+        "m_mean",
+        "intensity_peak_index"
+      ],
+      "details": "Archived summary reduced from an incomplete historical m=0 population sector; superseded by the regenerated published summary."
+    },
+    {
+      "file": "fig7b-N-500-gr-3.npz",
+      "sha256": "5661b596cf61297e5d569274581af59883b174743d4ac2e65416c718952aa99c",
+      "data_error": "missing_m0_ground_loss",
+      "status": "superseded_panel_b_summary",
+      "checked_on": "2026-11-11",
+      "source_file": "Rho-Gs-1-Gg-241.36678874100375-Ge-241.36678874100375-tnum-1000-n-500-Tmax-0.03728764859053315Rho.npy",
+      "source_sha256": "c67a70900013c9f859e5603a6a5807b3c9d219cabfa08b24f250ab615ff504d6",
+      "affected_quantities": [
+        "N_mean"
+      ],
+      "unaffected_quantities": [
+        "I",
+        "m_mean",
+        "intensity_peak_index"
+      ],
+      "details": "Archived summary reduced from an incomplete historical m=0 population sector; superseded by the regenerated published summary."
+    }
+  ]
+}

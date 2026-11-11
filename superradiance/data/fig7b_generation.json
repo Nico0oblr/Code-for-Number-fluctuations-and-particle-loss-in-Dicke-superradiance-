@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-11-11T12:32:19+01:00",
+  "solver": "NumPopDensLosses: full Dicke-triangle rate equations including ground-state loss from m=0",
+  "solver_file": "python/NumPopDensLosses.py",
+  "solver_sha256": "1d7bc008c6cd44d67d466a4516b08aa32eb351c616f4cbe6c189b0db39564cc8",
+  "versions": {
+    "numpy": "2.4.3",
+    "scipy": "1.17.1"
+  },
+  "trajectories": [
+    {
+      "gr": 0.2,
+      "rate": 16.091119249400247,
+      "N0": 500,
+      "shape": [
+        1001,
+        125751
+      ],
+      "final_mass": 0.9999999999998975,
+      "max_normalization_error": 1.0247358517290195e-13,
+      "min_population": -3.5102223110530187e-121,
+      "max_N_error": 2.8421709430404007e-11,
+      "final_N": 274.4058180469849,
+      "exact_final_N": 274.4058180470132,
+      "source_file": "Rho-Gs-1-Gg-16.091119249400247-Ge-16.091119249400247-tnum-1000-n-500-Tmax-0.03728764859053315Rho.npy",
+      "source_sha256": "76373e2535acf23256c9aacec56440a0b319dc6fbda7bd5d2d86068053b6e077",
+      "elapsed_seconds": 11.092577999981586,
+      "max_intensity_difference": 2.1827872842550278e-11,
+      "max_m_difference": 2.8421709430404007e-13,
+      "old_peak_index": 371,
+      "new_peak_index": 371
+    },
+    {
+      "gr": 1,
+      "rate": 80.45559624700124,
+      "N0": 500,
+      "shape": [
+        1001,
+        125751
+      ],
+      "final_mass": 1.0,
+      "max_normalization_error": 1.1102230246251565e-15,
+      "min_population": -9.317495876032467e-100,
+      "max_N_error": 5.684341886080801e-13,
+      "final_N": 24.893534183931983,
+      "exact_final_N": 24.893534183931973,
+      "source_file": "Rho-Gs-1-Gg-80.45559624700124-Ge-80.45559624700124-tnum-1000-n-500-Tmax-0.03728764859053315Rho.npy",
+      "source_sha256": "db90f505f4fdf5718c543ae88d4c4f94b4f140872a599c9be7337a97763d0140",
+      "elapsed_seconds": 13.064313374983612,
+      "max_intensity_difference": 1.3642420526593924e-12,
+      "max_m_difference": 1.1368683772161603e-13,
+      "old_peak_index": 289,
+      "new_peak_index": 289
+    },
+    {
+      "gr": 3,
+      "rate": 241.36678874100375,
+      "N0": 500,
+      "shape": [
+        1001,
+        125751
+      ],
+      "final_mass": 1.0000000000000517,
+      "max_normalization_error": 5.306866057708248e-14,
+      "min_population": -3.7462922740253835e-59,
+      "max_N_error": 1.2505552149377763e-12,
+      "final_N": 0.06170490204334525,
+      "exact_final_N": 0.06170490204333978,
+      "source_file": "Rho-Gs-1-Gg-241.36678874100375-Ge-241.36678874100375-tnum-1000-n-500-Tmax-0.03728764859053315Rho.npy",
+      "source_sha256": "c55022cb79f4d5de4d8b16727289403e8f6d0cfa3acfdf6d6954cb54c8f9cd24",
+      "elapsed_seconds": 19.38071100000525,
+      "max_intensity_difference": 2.2737367544323206e-13,
+      "max_m_difference": 1.7053025658242404e-13,
+      "old_peak_index": 41,
+      "new_peak_index": 41
+    }
+  ]
+}
